@@ -1,0 +1,23 @@
+<html>
+<head>
+     <meta charset="UTF-8">
+     <title>Calculo de Média</title>
+</head>
+<body>
+
+<form action="calculo.php" method="get">
+ Digite a primeira nota:
+<input type="text" id="n1"  name="num1" />
+<br />
+ Digite a segunda:
+<input type="text" id= "n2" name="num2" />
+<br /> 
+Digite a terceira
+<input type="text"  id="n3"   name="num3" />
+<br>
+<input type="radio" name="operacao" value="Média" checked />
+<input type="submit" value="Calcular" />
+<br /> <br />
+</form>
+</body>
+</html>
